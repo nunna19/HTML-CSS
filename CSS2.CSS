@@ -1,0 +1,296 @@
+body {
+    width: 790px;
+    margin: 0 auto;
+    background-image: url("image/snoww.jpG");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+div.no1 {
+    height: 300px;
+    width: 400px;
+    background-color: #ee3e80;
+}
+
+p.one {
+    height: 90%;
+    width: 90%;
+    background-color: #e1ddda;
+}
+
+
+h2,
+p {
+    width: 750px;
+    font-size: 90%;
+    line-height: 1.5em;
+}
+
+h2 {
+    color: #0088dd;
+    border-bottom: 1px solid #0088dd;
+}
+
+p.three,
+p.two {
+    border: 1px solid gray;
+    margin: 20px;
+    padding: 10px;
+    min-height: 10px;
+    max-height: 65px;
+}
+
+td.description {
+    min-width: 450px;
+    max-width: 650px;
+    left: 100px;
+    padding: 10px;
+    margin: 0px;
+    line-height: 2em;
+    color: red;
+
+}
+
+p.two {
+    border-width: 1px 4px 12px 4px;
+    overflow: hidden;
+
+}
+
+p.three {
+    border-width: thick;
+    overflow: scroll;
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+
+p.five {
+    border-width: 2px;
+    border-style: dotted;
+    width: 150px;
+    padding: 10px;
+}
+
+p.six {
+    border-width: 2px;
+    border-style: dashed;
+    width: 150px
+}
+
+p.eigth {
+    border-width: 5px;
+    border-style: double;
+    width: 150px
+}
+
+p.nine {
+    border-width: 5px;
+    border-style: ridge;
+}
+
+p.ten {
+    border-width: 5px;
+    border-style: inset;
+}
+
+p.eleven {
+    border-width: 5px;
+    border-style: outset;
+    text-align: center;
+}
+
+li.no1 {
+    display: inline;
+    margin-right: 30px;
+    color: white;
+    text-shadow: 2px 2px 7px black;
+}
+
+li.one {
+    display: none;
+}
+
+ul.no1 {
+    border-style: inset;
+    background-color: rgb(185, 179, 175);
+    text-align: center;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+
+ul.no2 {
+    list-style-image: url("image/Untitled.jpg");
+}
+
+li.no2 {
+    margin: 10px 0px 0px 0px;
+}
+
+
+
+table {
+    width: 400px;
+}
+
+th,
+td {
+    padding: 7px 7px 10px 10px;
+    text-align: center;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1;
+    font-size: 90%;
+}
+
+th.no1 {
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+}
+
+tr.no1 {
+    background-color: #efefef;
+}
+
+td.no1 {
+    border-bottom-style: double;
+    border-width: 5px;
+    border-color: gray;
+}
+
+
+h3 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 250px;
+    padding: 10px;
+    background-color: #efefef;
+    margin: 0px;
+    width: 100%;
+}
+
+p.no1 {
+    width: 620px;
+    left: 100px;
+}
+
+p.no2 {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+
+blockquote {
+    float: right;
+    width: 250px;
+    font-size: 120%;
+    font-style: italic;
+    font-family: georgia;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 2px solid #999;
+    border-bottom: 2px solid #999;
+    clear: left;
+}
+
+p.no3 {
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;
+
+}
+
+p.no4 {
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;
+}
+
+p.no5 {
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;
+    clear: right;
+}
+
+p.no6 {
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;
+    clear: right;
+}
+
+p.no7 {
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;
+}
+
+p.no8 {
+    width: 230px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: #efefef;
+}
+
+div.no2 {
+    border: 1px solid #665544;
+    overflow: auto;
+    width: 100%;
+}
+
+div.column1of2 {
+    float: left;
+    width: 550;
+    margin: 10px;
+}
+
+div.column2of2 {
+    float: left;
+    width: 200px;
+    margin: 10px;
+}
+
+#nav,
+#feature,
+#footer {
+    background-color: #efefef;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+#content {
+    overflow: auto;
+    height: 30%
+}
+
+.column1,
+.column2,
+.column3 {
+    background-color: #efefef;
+    width: 252px;
+    float: left;
+    margin: 5px;
+
+}
+
+li.no3 {
+    display: inline;
+    padding: 10px;
+}
